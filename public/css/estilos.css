@@ -1,31 +1,37 @@
 body {
-  background-color: rgb(125,191,140)
+  background-color: rgb(13, 122, 39)
 }
 
 .header_logo {
-  height: 123px;
-  weight: 107px
+  height: 100px;
+  width: 150px
 }
 
-.header_logo_right {
-  height: 123px;
-  weight: 107px;
-  float: right;
+.image_example {
+  height: 300px;
+  width: 300px;
 }
 
-.example_left {
-  height: 322px;
-  weight: 342px;
+.image_example_2 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.example_right {
-  height: 322px;
-  weight: 342px;
-}
-
 
 h1 {
   margin-left: 40px;
   font-size: 40px;
   text-align: center;
+}
+
+p {
+  margin-left: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: rgb(189, 27, 27);
 }
